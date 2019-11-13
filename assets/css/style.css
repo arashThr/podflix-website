@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Vazir;
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.woff2') format('woff2'),
+         url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.woff') format('woff'),
+         url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+body {
+    direction: rtl;
+    font-family: Vazir, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.justified-text {
+    text-align: justify;
+}
+
+#header .logo .symbol {
+    margin-left: 0.65em;
+    margin-right: 0em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0px;
+    line-height: 70px;;
+}
+
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-image: url(https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero-inner {
+    text-shadow: 2px 2px 10px black;
+}

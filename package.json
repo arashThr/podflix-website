@@ -1,0 +1,21 @@
+{
+  "name": "podflix-site",
+  "version": "1.0.0",
+  "description": "Phantom by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Arash Thr",
+  "license": "ISC",
+  "devDependencies": {
+    "mustache": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.5.1",
+    "hbs": "^4.0.6"
+  }
+}
