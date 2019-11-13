@@ -11,6 +11,25 @@
 body {
     direction: rtl;
     font-family: Vazir, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* background-color: #242627; */
+    /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); */
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /* background-color: black; */
+    /* background-color: #242627; */
+    /* color: rgb(200,196,189); */
+
+    background-color: #ffffff;
+    background-image: url("/images/bg.png");
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#footer > .inner .copyright {
+    color: aliceblue;
 }
 
 .social-icons {
@@ -19,6 +38,13 @@ body {
     align-items: center;
 
     text-align: center;
+}
+
+.native-player {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px 5px;
 }
 
 .justified-text {
