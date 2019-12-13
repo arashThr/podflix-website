@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 2px 2px 10px black;
 }
 
+/* Locked episodes */
 .img-container {
     position:relative;
 }
@@ -100,4 +101,25 @@ h1, h2, h3, h4, h5, h6 {
 .lock-image {
     position: absolute;
     top: 0px;
+}
+
+
+/* Count down */
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
 }
