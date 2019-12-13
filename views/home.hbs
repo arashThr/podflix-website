@@ -30,7 +30,7 @@
     </header>
     <section class="tiles">
       {{#each episodes}}
-      <article class="{{style}}">
+      <article>
         <span class="image img-container">
           <img src="{{pic}}" alt="" />
           {{#if locked}}
@@ -42,7 +42,6 @@
         {{else}}
         <a href="/ep/{{@index}}">
         {{/if}}
-          <h2>{{name}}</h2>
           <div class="content">
             <p>
               {{headline}}
