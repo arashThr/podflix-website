@@ -1,13 +1,3 @@
-@font-face {
-    font-family: Vazir;
-    src: url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.eot');
-    src: url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.woff2') format('woff2'),
-         url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.woff') format('woff'),
-         url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.ttf') format('truetype');
-    font-weight: normal;
-}
-
 body {
     direction: rtl;
     font-family: Vazir, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,7 +14,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: yekan, Tahoma, Geneva, Verdana, sans-serif;;
+    font-family: Yekan, Tahoma, Geneva, Verdana, sans-serif;;
 }
 
 #header {
