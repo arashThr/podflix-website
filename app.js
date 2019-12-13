@@ -28,7 +28,8 @@ app.get('/ep/:id', function (req, res) {
     res.send('This is locked')
     return
   }
-  res.render('ep', episodes[id]);
+  const data = Object.assign({}, episodes[id],  { epNumber: Number(id) + 1 })
+  res.render('ep', data);
 });
 
 app.use('/images', express.static('images'))
