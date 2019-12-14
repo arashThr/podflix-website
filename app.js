@@ -1,6 +1,7 @@
 const hbs = require( 'express-handlebars');
 const express = require('express')
-const fs = require('fs')
+
+const episodes = require('./episodes').episodes
 
 const port = 8000
 const app = express()
@@ -11,25 +12,24 @@ app.engine( 'hbs', hbs({
 
 app.set('view engine', 'hbs');
 
-const episodes = JSON.parse(fs.readFileSync('./episodes.json')).episodes
 app.get('(/|/index.html)', function (req, res) {
   res.render('home', {
     episodes
   });
 });
 
-app.get('/ep/:id', function (req, res) {
-  const id = req.params.id
-  if (id < 0 || id > episodes.length) {
+app.get('/ep/:slug', function (req, res) {
+  const slug = req.params.slug
+  const ep = episodes.filter(e => e.slug === slug)[0]
+  if (!ep) {
     res.sendStatus(404)
     return
   }
-  if (episodes[id].locked) {
+  if (ep.locked) {
     res.send('This is locked')
     return
   }
-  const data = Object.assign({}, episodes[id],  { epNumber: Number(id) + 1 })
-  res.render('ep', data);
+  res.render('ep', ep);
 });
 
 app.use('/images', express.static('images'))

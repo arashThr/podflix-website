@@ -31,7 +31,7 @@
       {{#each episodes}}
       <article>
         <span class="image img-container">
-          <img src="{{pic}}" alt="" />
+          <img src="images/covers/{{slug}}.jpg" alt="" />
           {{#if locked}}
           <img class="lock-image" src="/images/lock.png" alt="" onfocus="sayNo" />
           {{/if}}
@@ -39,7 +39,7 @@
         {{#if locked}}
         <a href="javascript:lockedEpisode();">
         {{else}}
-        <a href="/ep/{{@index}}">
+        <a href="/ep/{{slug}}">
         {{/if}}
           <div class="content">
             <p>
