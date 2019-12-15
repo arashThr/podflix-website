@@ -14,7 +14,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Yekan, Tahoma, Geneva, Verdana, sans-serif;;
+    font-family: Yekan, Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0px;
+    line-height: 70px;;
 }
 
 #header {
@@ -29,6 +31,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer > .inner .copyright {
     color: aliceblue;
+}
+
+.content {
+    text-shadow: 2px 2px 5px black;
+}
+
+.tiles article > a {
+    top: 4em;
 }
 
 .social-icons {
@@ -55,12 +65,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 0em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    letter-spacing: 0px;
-    line-height: 70px;;
-}
-
-
 .hero {
     /* Sizing */
     width: 100vw;
@@ -81,9 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero h1 {
-    /* Text styles */
-    font-size: 5em;
-
+    font-size: 6vw;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
@@ -148,4 +150,25 @@ h1, h2, h3, h4, h5, h6 {
 .smalltext{
 	padding-top: 5px;
 	font-size: 16px;
+}
+
+@media screen and (min-width: 601px) {
+    .hero-subtitle {
+      font-size: 20px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .hero-subtitle {
+      font-size: 15px;
+    }
+
+    .hero .btn {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    h1, h2 {
+        line-height: 50px;;
+    }
 }
