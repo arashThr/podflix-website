@@ -18,6 +18,10 @@ app.get('(/|/index.html)', function (req, res) {
   });
 });
 
+app.get('/about', (req, res) => {
+  res.render('about')
+})
+
 app.get('/ep/:slug', function (req, res) {
   const slug = req.params.slug
   const ep = episodes.filter(e => e.slug === slug)[0]
