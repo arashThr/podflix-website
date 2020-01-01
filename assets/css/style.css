@@ -141,6 +141,16 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px
 }
 
+.about-img {
+    text-align: center;
+}
+
+.about-img img {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+
 /* Locked episodes */
 .img-container {
     position:relative;
