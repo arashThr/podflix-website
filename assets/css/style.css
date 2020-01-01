@@ -128,6 +128,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgb(192, 178, 131, 0.8);
 }
 
+.hero .btn:hover {
+    color: black;
+}
+
 .tg-btn {
     width: 200px
 }
