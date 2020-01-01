@@ -38,5 +38,6 @@ app.get('/ep/:slug', function (req, res) {
 
 app.use('/images', express.static('images'))
 app.use('/assets', express.static('assets'))
+app.use('/favicon.ico', express.static('images/favicon.ico'));
 
 app.listen(port, () => console.log('Server started in port ' + port))
