@@ -18,9 +18,8 @@ app.get('(/|/index.html)', function (req, res) {
   });
 });
 
-app.get('/about', (req, res) => {
-  res.render('about')
-})
+app.get('/about', (req, res) => res.render('about'))
+app.get('/buy', (req, res) => res.render('buy'))
 
 app.get('/ep/:slug', function (req, res) {
   const slug = req.params.slug
@@ -41,3 +40,17 @@ app.use('/assets', express.static('assets'))
 app.use('/favicon.ico', express.static('images/favicon.ico'));
 
 app.listen(port, () => console.log('Server started in port ' + port))
+
+/*
+// https://gist.github.com/joepie91/c0069ab0e0da40cc7b54b8c2203befe1#gistcomment-2202216
+app.get('*', (req, res) => {
+  res.render('static' + req.url, function(err, html) {
+    if(!err) { return res.send(html) }
+    // Not super elegant the `indexOf` but useful
+    if (err.message.indexOf('Failed to lookup view') !== -1) {
+      return res.render('root/error')
+    }
+    throw err
+  })
+})
+*/
