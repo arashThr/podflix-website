@@ -25,7 +25,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: iranyekan, roboto, Tahoma, Verdana, sans-serif;
     letter-spacing: 0px;
-    line-height: 70px;;
+    line-height: 30px;;
 }
 
 #header {
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 #footer {
     background-color: black;
     color: white;
-    padding: 3em 0 3em 0;
+    padding: 2em 0 0em 0;
 }
 
 #footer > .inner .copyright {
@@ -54,7 +54,6 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-align: center;
 }
 
@@ -102,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 6vw;
     margin-top: 0;
     margin-bottom: 0.5em;
+    margin: 5rem 0;
 }
 
 .hero-inner {
@@ -200,8 +200,12 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 20px;
     }
 
-    h1, h2 {
+    h1 {
         line-height: 50px;;
+    }
+
+    h2 {
+        line-height: 20px;;
     }
 
     body {
