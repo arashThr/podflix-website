@@ -6,7 +6,7 @@ const episodes = require('./episodes').episodes
 const port = 9000
 const app = express()
 
-app.engine( 'hbs', hbs({
+app.engine('hbs', hbs({
   extname: 'hbs'
 }));
 
@@ -14,7 +14,7 @@ app.set('view engine', 'hbs');
 
 app.get('(/|/index.html)', function (req, res) {
   res.render('home', {
-    episodes
+    episodes: episodes.slice(1)
   });
 });
 
