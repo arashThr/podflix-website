@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px 0px 15px 0px;
 }
 
-.justified-text {
+p.justified-text {
     text-align: justify;
 }
 
@@ -146,6 +146,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-img img {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+
+img.ref-image {
     border-radius: 10px;
     width: 200px;
     height: auto;

@@ -20,6 +20,7 @@ app.get('(/|/index.html)', function (req, res) {
 
 app.get('/about', (req, res) => res.render('about'))
 app.get('/buy', (req, res) => res.render('buy'))
+app.get('/references', (req, res) => res.render('references'))
 
 app.get('/ep/:slug', function (req, res) {
   const slug = req.params.slug
