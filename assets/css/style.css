@@ -217,4 +217,9 @@ img.ref-image {
     body {
         font-size: smaller;
     }
+
+    .hero h1 {
+        margin: 3rem 0;
+    }
+
 }
