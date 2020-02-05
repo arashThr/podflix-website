@@ -42,7 +42,8 @@ module.exports = {
             name: "قسمت دوم: استراتژی ترس",
             slug: "ep2",
             pic: "images/covers/ep2.jpg",
-            locked: true,
+            locked: false,
+            teaser: `<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/755547406&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>`,
             headline: "قوی‌ترین ارتش جهان، شهری استراتژیک در مرکز اروپا و درگیری دوابرقدرت در ایران",
             description: `<p>شکل‌گیری اتحاد جماهیر شوروی به ابتدای قرن ۲۰ و انقلاب روسیه‌ برمی‌گردد. مردمانی که از زورگویی تزار‌ خسته شده بودند و با شعاری ساده به خیابان‌ها آمدند تا از حق خود دفاع کنند.</p>
             <p><strong>صلح / نان / زمین</strong></p>
