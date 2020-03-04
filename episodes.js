@@ -117,10 +117,11 @@ module.exports = {
             `
         },
         {
-            name: "قسمت ششم: بحران کوبا",
+            name: "قسمت ششم: یک دقیقه تا فاجعه",
             slug: "ep6",
             pic: "images/covers/ep6.jpg",
-            locked: true,
+            locked: false,
+            teaser: `<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/770588014&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>`,
             headline: "رویارویی نهایی دو قدرت، پایان جنگ‌های هسته‌ای و ترور یک رئیس جمهور",
             description: `<p>با لو رفتن نقشۀ شوروی، آمریکا زمان کمی برای پاسخ دارد چراکه هرلحظه ممکن است موشک‌های هسته‌ای دشمن آماده انفجار شوند. نظامیان و مشاوران کندی خواهان بمباران یا حمله به کوبا هستند ولی کندی که قبلا بخاطر تصمیم غلط ارتشش با شکست رو به رو شده قرار نیست به حرف آن‌ها گوش بدهد.</p>
             <p>کندی قرنطینه‌ای دریایی در مرز های آبی کوبا برقرار می‌کند ولی اشتباهات انسانی، درگیری‌های درونی دولت و همچنین سوءتفاهمی با دشمن باعث می شود خطر انفجار اولین بمب اتم نزدیک تر از هرزمانی باشد.</p>
